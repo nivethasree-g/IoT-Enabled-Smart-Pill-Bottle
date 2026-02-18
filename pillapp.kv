@@ -1,0 +1,31 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 20
+
+    Label:
+        id: connection_status
+        text: "Not Connected"
+        font_size: 20
+
+    Label:
+        id: status_label
+        text: "Waiting for data"
+        font_size: 22
+        bold: True
+
+    Button:
+        text: "Connect Bluetooth"
+        size_hint_y: None
+        height: 50
+        on_press: app.connect_bt()
+
+    Button:
+        text: "Reorder Medicine"
+        size_hint_y: None
+        height: 50
+        on_press: app.reorder_medicine()
+
+
+
+
