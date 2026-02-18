@@ -31,3 +31,10 @@ mobile application via Bluetooth (HC-05).
 - Home healthcare
 - Elderly care
 - Chronic disease management
+
+## Repository Structure
+- Arduino_Code/ : Arduino program for pill level detection
+- Mobile_Application_Code/ : Mobile app source files
+- Documentation/ : Project report and presentation
+- Images/ : System diagram and prototype images
+
